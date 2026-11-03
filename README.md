@@ -1,4 +1,4 @@
-# D2L 代码速成八讲（PyTorch 版）
+# D2L代码速成八讲（PyTorch Crash Course）
 
 **先学速成八讲看懂代码意思，再学 D2L 看懂代码逻辑。**
 
