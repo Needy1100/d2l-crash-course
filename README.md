@@ -1,12 +1,18 @@
-# D2L 课程笔记与基础速成教材（D2L Notes and Crash Course）
+# D2L 课程笔记与基础速成教材
 
 本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和基础速成教材，帮助具备基础 Python 知识的读者尽快看懂常见代码、跟上课程。当前收录的八讲采用 **PyTorch** 版示例，可结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解阅读。
 
-[D2L 课程介绍](#d2l-课程介绍) · [关于李沐老师](#关于李沐老师) · [课程与官方资源](#课程与官方资源) · [教材目录](#教材目录)
+[为什么先读速成教材](#为什么先读速成教材) · [D2L 课程介绍](#d2l-课程介绍) · [关于李沐老师](#关于李沐老师) · [课程与官方资源](#课程与官方资源) · [教材目录](#教材目录)
+
+## 为什么先读速成教材
+
+D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接触深度学习的读者，即使会写 Python，第一次读到张量广播、自动求导或完整训练循环，也容易同时卡在公式、代码和张量形状上，直接跟课会有一定门槛。
+
+这份基础速成教材把这些前置内容集中讲清楚：先认识常见写法和形状变化，再把数据加载、模型定义、损失计算和参数更新串成一条流程。带着这张流程图再学 D2L，就更容易判断一行代码在解决什么问题，把精力放到模型原理和实验结果上。
 
 ## 已收录资料：D2L 基础速成八讲（PyTorch 版）
 
-[**在线阅读教材**](D2L-Crash-Course.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/D2L-Crash-Course.pdf) · [查看教材目录](#教材目录)
+[**在线阅读教材**](d2l-notes-and-crash-course.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/d2l-notes-and-crash-course.pdf) · [查看教材目录](#教材目录)
 
 <p align="center">
   <img src="assets/cover.png" alt="D2L 基础速成八讲 PDF 封面" width="380">
@@ -30,15 +36,19 @@
 
 ## 关于李沐老师
 
-李沐（Mu Li）是 D2L 中文在线课程的讲师，也是《动手学深度学习》的共同作者之一。他于 2017 年获得[卡内基梅隆大学计算机科学博士学位](https://csd.cmu.edu/academics/doctoral/degrees-conferred/mu-li)，博士研究涉及分布式机器学习中系统与算法的协同设计。[AWS 的研究者访谈](https://aws.amazon.com/blogs/machine-learning/in-the-research-spotlight-mu-li/)介绍了他在大规模机器学习和开源深度学习框架 Apache MXNet 方面的工作。
+李沐（Mu Li）主讲 D2L 中文在线课程，也是《动手学深度学习》的共同作者之一。他于 2017 年获得[卡内基梅隆大学计算机科学博士学位](https://csd.cmu.edu/academics/doctoral/degrees-conferred/mu-li)，博士研究聚焦分布式机器学习。他曾在 AWS 从事大规模机器学习研究，并带领团队开展开源深度学习框架 Apache MXNet 的开发工作。[AWS 研究者访谈](https://aws.amazon.com/blogs/machine-learning/in-the-research-spotlight-mu-li/)
+
+他参与编写的 *Dive into Deep Learning* 英文版由[剑桥大学出版社出版](https://assets.cambridge.org/97810093/89433/frontmatter/9781009389433_frontmatter.pdf)。据 [D2L 项目官方统计](https://github.com/d2l-ai/d2l-zh)，本书的中英文版已被 **70 多个国家的 500 多所大学**用于教学。读者也可以通过公开教材、开源代码和在线课程自学。
 
 ## 课程与官方资源
 
 - [D2L 中文在线课程 v2](https://c.d2l.ai/zh-v2/)：课程安排、课件与视频入口。
 - [B 站课程：《动手学深度学习 v2》](https://www.bilibili.com/list/1567748478?bvid=BV1oX4y137bC&oid=714717789)：从课程安排开始观看。
 - [B 站账号：跟李沐学AI](https://space.bilibili.com/1567748478)：李沐老师发布课程视频的账号。
-- [D2L 中文教材](https://zh.d2l.ai/) · [D2L 英文教材](https://d2l.ai/)：正文、示例代码和练习。
-- [D2L 中文版 GitHub 仓库](https://github.com/d2l-ai/d2l-zh) · [D2L 英文版 GitHub 仓库](https://github.com/d2l-ai/d2l-en)：教材源文件与项目更新。
+- [D2L 中文教材](https://zh.d2l.ai/)：在线正文、示例代码和练习。
+- [D2L 英文教材（English）](https://d2l.ai/)：*Dive into Deep Learning* 英文原书。
+- [D2L 中文版 GitHub 仓库（d2l-zh）](https://github.com/d2l-ai/d2l-zh)：中文教材源文件。
+- [D2L 英文版 GitHub 仓库（d2l-en）](https://github.com/d2l-ai/d2l-en)：英文教材源文件。
 - [D2L 中文课程 v2 GitHub 仓库](https://github.com/d2l-ai/courses-zh-v2)：中文课程网站及配套资料。
 
 ## 阅读建议
