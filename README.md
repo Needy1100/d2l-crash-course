@@ -1,10 +1,10 @@
-# D2L 课程笔记与教辅（D2L Notes and Study Materials）
+# D2L 课程笔记与基础速成教材（D2L Notes and Crash Course）
 
-本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和辅助教材，主要关注 **PyTorch** 版代码。学习时可以结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解，按需查阅这里的资料。
+本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和基础速成教材，帮助具备基础 Python 知识的读者尽快看懂常见代码、跟上课程。当前收录的八讲采用 **PyTorch** 版示例，可结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解阅读。
 
 ## 已收录资料：D2L 代码速成八讲（PyTorch 版）
 
-[**在线阅读教材**](<D2L代码速成八讲（PyTorch版）.pdf>) · [**下载 PDF**](https://github.com/Needy1100/pytorch-deep-learning-basics/releases/latest/download/D2L-PyTorch-Crash-Course.pdf) · [查看教材目录](#教材目录)
+[**在线阅读教材**](<D2L代码速成八讲（PyTorch版）.pdf>) · [**下载 PDF**](https://github.com/Needy1100/d2l-crash-course/releases/latest/download/D2L-PyTorch-Crash-Course.pdf) · [查看教材目录](#教材目录)
 
 这份教辅适合在开始学习 D2L 前熟悉常见代码，也可在学习途中查阅。内容从张量的形状和运算入手，讲到怎样准备数据、定义模型、计算梯度，以及完成训练和评估。
 
@@ -140,4 +140,4 @@
 ## 参考与反馈
 
 - **示例来源**：[《动手学深度学习》中文版](https://zh.d2l.ai/)，可按教材中的链接查阅相应示例。
-- **问题反馈**：欢迎在 [Issues](https://github.com/Needy1100/pytorch-deep-learning-basics/issues) 提出勘误或阅读建议。附上正文页码及对应的语句或代码，便于定位。
+- **问题反馈**：欢迎在 [Issues](https://github.com/Needy1100/d2l-crash-course/issues) 提出勘误或阅读建议。附上正文页码及对应的语句或代码，便于定位。
