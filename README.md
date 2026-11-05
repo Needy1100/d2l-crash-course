@@ -74,7 +74,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第一章 代码全局结构（Anatomy of a Training Program）
 
-先认识一段训练程序中的数据、模型、损失和参数更新，再分别学习各部分的写法。
+**正文第 1 页。** 先认识一段训练程序中的数据、模型、损失和参数更新，再分别学习各部分的写法。
 
 - 1.1 数据准备与整理（Data Preparation and Organization）
 - 1.2 模型构建（Model Construction）
@@ -83,7 +83,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第二章 张量基础操作（Basic Tensor Operations）
 
-学会读出张量的形状和类型，区分改变形状、调整轴顺序和修改元素。
+**正文第 5 页。** 学会读出张量的形状和类型，区分改变形状、调整轴顺序和修改元素。
 
 - 2.1 创建张量（Creating Tensors）
 - 2.2 形状、轴数与元素总数（Shape, Number of Dimensions, and Element Count）
@@ -97,7 +97,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第三章 张量运算（Tensor Computation）
 
-从输入形状判断运算是否可行，并用 softmax 示例串起按轴求和、保留维度和广播。
+**正文第 11 页。** 从输入形状判断运算是否可行，并用 softmax 示例串起按轴求和、保留维度和广播。
 
 - 3.1 逐元素运算（Elementwise Operations）
 - 3.2 求和、均值与轴（Sums, Means, and Axes）
@@ -110,7 +110,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第四章 数据加载与预处理（Data Loading and Preprocessing）
 
-从单条样本追踪到一个批次，看清预处理在什么时候执行、特征与标签怎样对应。
+**正文第 18 页。** 从单条样本追踪到一个批次，看清预处理在什么时候执行、特征与标签怎样对应。
 
 - 4.1 数据集与数据加载器（Datasets and Data Loaders）
 - 4.2 解析 load_array（Understanding `load_array`）
@@ -125,7 +125,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第五章 模型定义与参数（Model Definition and Parameters）
 
-区分创建网络层和调用网络层，沿着 LeNet 的各层检查输出形状。
+**正文第 26 页。** 区分创建网络层和调用网络层，沿着 LeNet 的各层检查输出形状。
 
 - 5.1 创建模型与调用模型（Creating and Calling Models）
 - 5.2 顺序容器 Sequential（The `Sequential` Container）
@@ -140,7 +140,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第六章 自动求导、损失与优化器（Automatic Differentiation, Loss, and Optimizers）
 
-看清损失值、参数梯度和参数本身之间的关系，理解清梯度、反向传播和更新各自的作用。
+**正文第 34 页。** 看清损失值、参数梯度和参数本身之间的关系，理解清梯度、反向传播和更新各自的作用。
 
 - 6.1 开启梯度追踪（Enabling Gradient Tracking）
 - 6.2 反向传播与参数梯度（Backpropagation and Parameter Gradients）
@@ -156,7 +156,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第七章 训练与评估（Training and Evaluation）
 
-把单批更新放回整轮训练，分清训练模式和评估模式，以及准确率的计算方式。
+**正文第 42 页。** 把单批更新放回整轮训练，分清训练模式和评估模式，以及准确率的计算方式。
 
 - 7.1 训练模式与评估模式（Training and Evaluation Modes）
 - 7.2 轮次、批次与更新步（Epochs, Batches, and Update Steps）
@@ -171,7 +171,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ### 第八章 设备、存取与综合阅读（Devices, Saving and Loading, and a Code Walkthrough）
 
-学习设备迁移和模型存取，最后通过多层感知机示例回顾从数据加载到训练的过程。
+**正文第 50 页。** 学习设备迁移和模型存取，最后通过多层感知机示例回顾从数据加载到训练的过程。
 
 - 8.1 计算设备与设备选择（Compute Devices and Device Selection）
 - 8.2 模型与数据的设备迁移（Moving Models and Data Between Devices）
