@@ -12,7 +12,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ## 已收录资料：D2L 基础速成八讲（PyTorch 版）
 
-[**在线阅读教材**](d2l-notes-and-crash-course.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/d2l-notes-and-crash-course.pdf) · [查看教材目录](#教材目录)
+[**在线阅读教材**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/d2l-notes-and-crash-course.pdf) · [查看教材目录](#教材目录)
 
 <p align="center">
   <img src="assets/cover.png" alt="D2L 基础速成八讲 PDF 封面" width="380">
@@ -66,7 +66,11 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 > 阅读代码时，可以先写下输入和输出的形状，再判断这行是在整理数据、执行计算，还是更新参数。
 
-直接阅读 PDF 无需安装环境。运行书中的示例时，请先准备 Python 和 PyTorch，并检查片段是否用到了前文定义的变量、数据或函数。[PyTorch 官方文档](https://docs.pytorch.org/docs/stable/)可用于查阅接口参数。
+### 运行环境与排查
+
+直接阅读 PDF 无需安装环境。为方便对照学习，本教材的代码写法、接口和运行环境以 **D2L 中文版 2.0.0 的 PyTorch 示例**为准，采用课程指定版本。请按官方安装说明准备 Python 3.9、Jupyter Notebook、PyTorch 1.12.0、torchvision 0.13.0 和 `d2l==0.17.6`。[D2L 官方安装说明](https://zh-v2.d2l.ai/chapter_installation/index.html)
+
+如果遇到导入失败、找不到函数或参数不兼容，先核对 Notebook 当前内核和已安装的版本。若版本不同，切换到课程环境，重启内核并按原顺序运行前置单元。仍有异常时，可到 Issues 附上报错、教材正文页码和依赖版本。
 
 ## 教材目录
 
