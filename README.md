@@ -1,10 +1,12 @@
-# 深度学习基础八讲（Deep Learning Basics with PyTorch）
+# D2L 课程笔记与教辅（D2L Notes and Study Materials）
 
-## 教材概览
+本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和辅助教材，主要关注 **PyTorch** 版代码。学习时可以结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解，按需查阅这里的资料。
+
+## 已收录资料：D2L 代码速成八讲（PyTorch 版）
 
 [**在线阅读教材**](<D2L代码速成八讲（PyTorch版）.pdf>) · [**下载 PDF**](https://github.com/Needy1100/pytorch-deep-learning-basics/releases/latest/download/D2L-PyTorch-Crash-Course.pdf) · [查看教材目录](#教材目录)
 
-这是一份面向初学者的中文深度学习基础教材。全书以 **Python** 和 **PyTorch** 为工具，从张量的形状和运算入手，讲到怎样准备数据、定义模型、计算梯度，以及完成一次训练和评估。
+这份教辅适合在开始学习 D2L 前熟悉常见代码，也可在学习途中查阅。内容从张量的形状和运算入手，讲到怎样准备数据、定义模型、计算梯度，以及完成训练和评估。
 
 教材适合已经掌握基础 Python 语法、刚开始学习深度学习的读者。书中结合代码示例说明每一步在做什么、数据怎样流动，以及遇到形状或类型不匹配时从哪里查起。
 
