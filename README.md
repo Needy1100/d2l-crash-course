@@ -2,15 +2,44 @@
 
 本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和基础速成教材，帮助具备基础 Python 知识的读者尽快看懂常见代码、跟上课程。当前收录的八讲采用 **PyTorch** 版示例，可结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解阅读。
 
-## 已收录资料：D2L 代码速成八讲（PyTorch 版）
+[D2L 课程介绍](#d2l-课程介绍) · [关于李沐老师](#关于李沐老师) · [课程与官方资源](#课程与官方资源) · [教材目录](#教材目录)
 
-[**在线阅读教材**](<D2L代码速成八讲（PyTorch版）.pdf>) · [**下载 PDF**](https://github.com/Needy1100/d2l-crash-course/releases/latest/download/D2L-PyTorch-Crash-Course.pdf) · [查看教材目录](#教材目录)
+## 已收录资料：D2L 基础速成八讲（PyTorch 版）
+
+[**在线阅读教材**](D2L-Crash-Course.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/D2L-Crash-Course.pdf) · [查看教材目录](#教材目录)
+
+<p align="center">
+  <img src="assets/cover.png" alt="D2L 基础速成八讲 PDF 封面" width="380">
+</p>
 
 这份教辅适合在开始学习 D2L 前熟悉常见代码，也可在学习途中查阅。内容从张量的形状和运算入手，讲到怎样准备数据、定义模型、计算梯度，以及完成训练和评估。
 
 教材适合已经掌握基础 Python 语法、刚开始学习深度学习的读者。书中结合代码示例说明每一步在做什么、数据怎样流动，以及遇到形状或类型不匹配时从哪里查起。
 
 **全书共八讲，PDF 共 61 页，正文单独编号，共 57 页。** 部分代码示例参考李沐等人编写的《动手学深度学习》（D2L）。
+
+## D2L 课程介绍
+
+《动手学深度学习》（**Dive into Deep Learning**，简称 **D2L**）是一套将理论、代码和练习放在一起的深度学习教材。李沐老师主讲的[中文在线课程 v2](https://c.d2l.ai/zh-v2/)配合教材第二版，使用 PyTorch 演示模型实现。课程适合有基础 Python 编程和数学知识、希望自己动手训练模型的学习者。
+
+- **打基础**：从数据操作、线性代数和自动求导开始，通过线性回归、softmax 回归和多层感知机理解损失函数、反向传播和训练循环。
+- **学模型**：进一步学习卷积神经网络、循环神经网络和注意力机制，理解不同网络为什么适合处理不同的数据。
+- **做实践**：结合图像分类、目标检测、机器翻译等任务，练习把模型原理落实到数据处理、代码实现和结果评估中。
+
+课程主页按讲次列出学习内容，并提供对应课件和视频入口。学习时可以先读教材，再运行例子验证自己的理解；如果卡在张量形状、参数含义或训练代码，可以回查本仓库的基础速成八讲。
+
+## 关于李沐老师
+
+李沐（Mu Li）是 D2L 中文在线课程的讲师，也是《动手学深度学习》的共同作者之一。他于 2017 年获得[卡内基梅隆大学计算机科学博士学位](https://csd.cmu.edu/academics/doctoral/degrees-conferred/mu-li)，博士研究涉及分布式机器学习中系统与算法的协同设计。[AWS 的研究者访谈](https://aws.amazon.com/blogs/machine-learning/in-the-research-spotlight-mu-li/)介绍了他在大规模机器学习和开源深度学习框架 Apache MXNet 方面的工作。
+
+## 课程与官方资源
+
+- [D2L 中文在线课程 v2](https://c.d2l.ai/zh-v2/)：课程安排、课件与视频入口。
+- [B 站课程：《动手学深度学习 v2》](https://www.bilibili.com/list/1567748478?bvid=BV1oX4y137bC&oid=714717789)：从课程安排开始观看。
+- [B 站账号：跟李沐学AI](https://space.bilibili.com/1567748478)：李沐老师发布课程视频的账号。
+- [D2L 中文教材](https://zh.d2l.ai/) · [D2L 英文教材](https://d2l.ai/)：正文、示例代码和练习。
+- [D2L 中文版 GitHub 仓库](https://github.com/d2l-ai/d2l-zh) · [D2L 英文版 GitHub 仓库](https://github.com/d2l-ai/d2l-en)：教材源文件与项目更新。
+- [D2L 中文课程 v2 GitHub 仓库](https://github.com/d2l-ai/courses-zh-v2)：中文课程网站及配套资料。
 
 ## 阅读建议
 
@@ -137,7 +166,6 @@
 - 8.8 D2L 辅助函数（第 55 页）
 - 8.9 综合阅读：多层感知机训练（第 56 页）
 
-## 参考与反馈
+## 问题反馈
 
-- **示例来源**：[《动手学深度学习》中文版](https://zh.d2l.ai/)，可按教材中的链接查阅相应示例。
-- **问题反馈**：欢迎在 [Issues](https://github.com/Needy1100/d2l-crash-course/issues) 提出勘误或阅读建议。附上正文页码及对应的语句或代码，便于定位。
+- **问题反馈**：欢迎在 [Issues](https://github.com/Needy1100/d2l-notes-and-crash-course/issues) 提出勘误或阅读建议。附上正文页码及对应的语句或代码，便于定位。
