@@ -1,10 +1,10 @@
-# D2L代码速成八讲（PyTorch Crash Course）
+# 深度学习基础八讲（Deep Learning Basics with PyTorch）
 
 **面向初学者的深度学习基础教材，用 PyTorch 代码理解从数据到模型训练的全过程。**
 
 全书分八讲，从张量和数据加载讲到模型定义、自动求导、训练评估与模型保存。具备基础 Python 知识即可开始阅读。部分代码示例参考李沐等人编写的《动手学深度学习》（D2L）。
 
-**[在线阅读教材](<D2L代码速成八讲（PyTorch版）.pdf>) · [直接下载 PDF](https://github.com/Needy1100/d2l-pytorch-crash-course/releases/latest/download/D2L-PyTorch-Crash-Course.pdf)**
+**[在线阅读教材](<D2L代码速成八讲（PyTorch版）.pdf>) · [直接下载 PDF](https://github.com/Needy1100/pytorch-deep-learning-basics/releases/latest/download/D2L-PyTorch-Crash-Course.pdf)**
 
 <p align="center">
   <img src="assets/cover.png" alt="D2L 代码速成八讲（PyTorch 版）封面" width="380">
@@ -49,4 +49,4 @@
 
 ## 问题反馈
 
-欢迎通过 [Issues](https://github.com/Needy1100/d2l-pytorch-crash-course/issues) 反馈错误或不清楚的表述。请附上教材正文页码、对应语句或代码，以及问题描述，便于定位。
+欢迎通过 [Issues](https://github.com/Needy1100/pytorch-deep-learning-basics/issues) 反馈错误或不清楚的表述。请附上教材正文页码、对应语句或代码，以及问题描述，便于定位。
