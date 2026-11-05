@@ -36,9 +36,11 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ## 关于李沐老师
 
-李沐（Mu Li）主讲 D2L 中文在线课程，也是《动手学深度学习》的共同作者之一。他于 2017 年获得[卡内基梅隆大学计算机科学博士学位](https://csd.cmu.edu/academics/doctoral/degrees-conferred/mu-li)，博士研究聚焦分布式机器学习。他曾在 AWS 从事大规模机器学习研究，并带领团队开展开源深度学习框架 Apache MXNet 的开发工作。[AWS 研究者访谈](https://aws.amazon.com/blogs/machine-learning/in-the-research-spotlight-mu-li/)
+李沐（Mu Li）是 D2L 中文在线课程的主讲人，也是《动手学深度学习》的共同作者之一。2017 年获卡内基梅隆大学计算机科学博士学位，博士研究聚焦大规模分布式机器学习。 [卡内基梅隆大学计算机科学系](https://csd.cmu.edu/academics/doctoral/degrees-conferred/mu-li)
 
-他参与编写的 *Dive into Deep Learning* 英文版由[剑桥大学出版社出版](https://assets.cambridge.org/97810093/89433/frontmatter/9781009389433_frontmatter.pdf)。据 [D2L 项目官方统计](https://github.com/d2l-ai/d2l-zh)，本书的中英文版已被 **70 多个国家的 500 多所大学**用于教学。读者也可以通过公开教材、开源代码和在线课程自学。
+- **学术成果**：以第一作者在 USENIX OSDI 2014 发表参数服务器论文，研究如何让多台机器协同训练大规模模型。另一篇第一作者论文 *DiFacto* 获 ACM WSDM 2016 最佳论文荣誉提名。 [OSDI 论文](https://www.usenix.org/conference/osdi14/technical-sessions/presentation/li_mu) · [WSDM 获奖名单](https://www.wsdm-conference.org/2016/)
+- **工业与开源实践**：曾任 AWS 机器学习首席科学家（Principal Scientist），带领团队开展开源深度学习框架 Apache MXNet 的开发工作。 [AWS 研究者访谈](https://aws.amazon.com/blogs/machine-learning/in-the-research-spotlight-mu-li/)
+- **教材影响**：合著的英文教材 *Dive into Deep Learning* 由剑桥大学出版社出版。据 D2L 项目官方统计，教材中英文版已被 **70 多个国家的 500 多所大学**用于教学。 [剑桥大学出版社书目资料](https://assets.cambridge.org/97810093/89433/frontmatter/9781009389433_frontmatter.pdf) · [D2L 项目官方仓库](https://github.com/d2l-ai/d2l-zh)
 
 ## 课程与官方资源
 
@@ -63,118 +65,118 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ## 教材目录
 
-以下标题、顺序和页码对应 PDF 原目录。页码为教材正文页码。
+以下章节按 PDF 原目录顺序列出，附英文标题。
 
-### 第一章 代码全局结构
+### 第一章 代码全局结构（Anatomy of a Training Program）
 
-**正文第 1 页。** 先认识一段训练程序中的数据、模型、损失和参数更新，再分别学习各部分的写法。
+先认识一段训练程序中的数据、模型、损失和参数更新，再分别学习各部分的写法。
 
-- 1.1 数据准备与整理（第 2 页）
-- 1.2 模型构建（第 2 页）
-- 1.3 损失与参数学习（第 3 页）
-- 1.4 训练流程概览（第 4 页）
+- 1.1 数据准备与整理（Data Preparation and Organization）
+- 1.2 模型构建（Model Construction）
+- 1.3 损失与参数学习（Loss and Parameter Learning）
+- 1.4 训练流程概览（Overview of the Training Workflow）
 
-### 第二章 张量基础操作
+### 第二章 张量基础操作（Basic Tensor Operations）
 
-**正文第 5 页。** 学会读出张量的形状和类型，区分改变形状、调整轴顺序和修改元素。
+学会读出张量的形状和类型，区分改变形状、调整轴顺序和修改元素。
 
-- 2.1 创建张量（第 5 页）
-- 2.2 形状、轴数与元素总数（第 5 页）
-- 2.3 数据类型与转换（第 6 页）
-- 2.4 索引、切片与赋值（第 7 页）
-- 2.5 改变形状（第 8 页）
-- 2.6 增减长度为 1 的轴（第 8 页）
-- 2.7 调整轴顺序（第 9 页）
-- 2.8 提取 Python 数字（第 10 页）
-- 2.9 综合示例：读取与修改张量（第 10 页）
+- 2.1 创建张量（Creating Tensors）
+- 2.2 形状、轴数与元素总数（Shape, Number of Dimensions, and Element Count）
+- 2.3 数据类型与转换（Data Types and Conversion）
+- 2.4 索引、切片与赋值（Indexing, Slicing, and Assignment）
+- 2.5 改变形状（Reshaping Tensors）
+- 2.6 增减长度为 1 的轴（Adding and Removing Size-One Dimensions）
+- 2.7 调整轴顺序（Reordering Dimensions）
+- 2.8 提取 Python 数字（Extracting a Python Scalar）
+- 2.9 综合示例：读取与修改张量（Worked Example: Reading and Modifying Tensors）
 
-### 第三章 张量运算
+### 第三章 张量运算（Tensor Computation）
 
-**正文第 11 页。** 从输入形状判断运算是否可行，并用 softmax 示例串起按轴求和、保留维度和广播。
+从输入形状判断运算是否可行，并用 softmax 示例串起按轴求和、保留维度和广播。
 
-- 3.1 逐元素运算（第 11 页）
-- 3.2 求和、均值与轴（第 11 页）
-- 3.3 保留汇总轴（第 12 页）
-- 3.4 广播规则（第 13 页）
-- 3.5 拼接与堆叠（第 14 页）
-- 3.6 点积与矩阵乘法（第 15 页）
-- 3.7 比较、筛选与计数（第 15 页）
-- 3.8 综合示例：softmax（第 16 页）
+- 3.1 逐元素运算（Elementwise Operations）
+- 3.2 求和、均值与轴（Sums, Means, and Axes）
+- 3.3 保留汇总轴（Keeping Reduced Dimensions）
+- 3.4 广播规则（Broadcasting Rules）
+- 3.5 拼接与堆叠（Concatenation and Stacking）
+- 3.6 点积与矩阵乘法（Dot Products and Matrix Multiplication）
+- 3.7 比较、筛选与计数（Comparison, Filtering, and Counting）
+- 3.8 综合示例：softmax（Worked Example: Softmax）
 
-### 第四章 数据加载与预处理
+### 第四章 数据加载与预处理（Data Loading and Preprocessing）
 
-**正文第 18 页。** 从单条样本追踪到一个批次，看清预处理在什么时候执行、特征与标签怎样对应。
+从单条样本追踪到一个批次，看清预处理在什么时候执行、特征与标签怎样对应。
 
-- 4.1 数据集与数据加载器（第 18 页）
-- 4.2 解析 load_array（第 19 页）
-- 4.3 数据加载参数（第 20 页）
-- 4.4 批次解包（第 20 页）
-- 4.5 迭代器与遍历控制（第 21 页）
-- 4.6 生成器与 yield（第 22 页）
-- 4.7 图像预处理（第 23 页）
-- 4.8 表格预处理（第 24 页）
-- 4.9 常见 Python 语法（第 24 页）
-- 4.10 综合示例：检查图像批次（第 25 页）
+- 4.1 数据集与数据加载器（Datasets and Data Loaders）
+- 4.2 解析 load_array（Understanding `load_array`）
+- 4.3 数据加载参数（Data Loader Arguments）
+- 4.4 批次解包（Unpacking Batches）
+- 4.5 迭代器与遍历控制（Iterators and Iteration Control）
+- 4.6 生成器与 yield（Generators and `yield`）
+- 4.7 图像预处理（Image Preprocessing）
+- 4.8 表格预处理（Tabular Data Preprocessing）
+- 4.9 常见 Python 语法（Common Python Syntax）
+- 4.10 综合示例：检查图像批次（Worked Example: Inspecting an Image Batch）
 
-### 第五章 模型定义与参数
+### 第五章 模型定义与参数（Model Definition and Parameters）
 
-**正文第 26 页。** 区分创建网络层和调用网络层，沿着 LeNet 的各层检查输出形状。
+区分创建网络层和调用网络层，沿着 LeNet 的各层检查输出形状。
 
-- 5.1 创建模型与调用模型（第 26 页）
-- 5.2 顺序容器 Sequential（第 26 页）
-- 5.3 全连接层的参数与计算（第 27 页）
-- 5.4 自定义模型 Module（第 28 页）
-- 5.5 模型调用与函数式接口（第 29 页）
-- 5.6 卷积、激活与池化（第 29 页）
-- 5.7 综合示例：LeNet（第 30 页）
-- 5.8 参数访问与管理（第 31 页）
-- 5.9 参数初始化（第 32 页）
-- 5.10 逐层检查输出形状（第 33 页）
+- 5.1 创建模型与调用模型（Creating and Calling Models）
+- 5.2 顺序容器 Sequential（The `Sequential` Container）
+- 5.3 全连接层的参数与计算（Fully Connected Layers: Parameters and Computation）
+- 5.4 自定义模型 Module（Defining Custom Models with `Module`）
+- 5.5 模型调用与函数式接口（Model Calls and the Functional API）
+- 5.6 卷积、激活与池化（Convolution, Activation, and Pooling）
+- 5.7 综合示例：LeNet（Worked Example: LeNet）
+- 5.8 参数访问与管理（Accessing and Managing Parameters）
+- 5.9 参数初始化（Parameter Initialization）
+- 5.10 逐层检查输出形状（Checking Output Shapes Layer by Layer）
 
-### 第六章 自动求导、损失与优化器
+### 第六章 自动求导、损失与优化器（Automatic Differentiation, Loss, and Optimizers）
 
-**正文第 34 页。** 看清损失值、参数梯度和参数本身之间的关系，理解清梯度、反向传播和更新各自的作用。
+看清损失值、参数梯度和参数本身之间的关系，理解清梯度、反向传播和更新各自的作用。
 
-- 6.1 开启梯度追踪（第 34 页）
-- 6.2 反向传播与参数梯度（第 35 页）
-- 6.3 单元素目标与损失汇总（第 35 页）
-- 6.4 梯度清理（第 36 页）
-- 6.5 分离结果与关闭梯度记录（第 37 页）
-- 6.6 损失函数与损失值（第 37 页）
-- 6.7 损失汇总参数 reduction（第 38 页）
-- 6.8 交叉熵的输入要求（第 39 页）
-- 6.9 优化器的职责（第 39 页）
-- 6.10 手写 SGD 与梯度缩放（第 40 页）
-- 6.11 综合示例：单批参数更新（第 41 页）
+- 6.1 开启梯度追踪（Enabling Gradient Tracking）
+- 6.2 反向传播与参数梯度（Backpropagation and Parameter Gradients）
+- 6.3 单元素目标与损失汇总（Single-Element Objectives and Loss Aggregation）
+- 6.4 梯度清理（Clearing Gradients）
+- 6.5 分离结果与关闭梯度记录（Detaching Tensors and Disabling Gradient Tracking）
+- 6.6 损失函数与损失值（Loss Functions and Loss Values）
+- 6.7 损失汇总参数 reduction（The Loss `reduction` Argument）
+- 6.8 交叉熵的输入要求（Input Requirements for Cross-Entropy）
+- 6.9 优化器的职责（What Optimizers Do）
+- 6.10 手写 SGD 与梯度缩放（Implementing SGD and Scaling Gradients）
+- 6.11 综合示例：单批参数更新（Worked Example: Updating Parameters for One Batch）
 
-### 第七章 训练与评估
+### 第七章 训练与评估（Training and Evaluation）
 
-**正文第 42 页。** 把单批更新放回整轮训练，分清训练模式和评估模式，以及准确率的计算方式。
+把单批更新放回整轮训练，分清训练模式和评估模式，以及准确率的计算方式。
 
-- 7.1 训练模式与评估模式（第 42 页）
-- 7.2 轮次、批次与更新步（第 43 页）
-- 7.3 预测类别与 argmax（第 43 页）
-- 7.4 正确数量与准确率（第 44 页）
-- 7.5 指标累加器（第 45 页）
-- 7.6 解析单轮训练函数（第 46 页）
-- 7.7 整轮指标的加权统计（第 47 页）
-- 7.8 解析评估函数（第 47 页）
-- 7.9 多轮训练与指标组合（第 48 页）
-- 7.10 结果展示与检查（第 49 页）
+- 7.1 训练模式与评估模式（Training and Evaluation Modes）
+- 7.2 轮次、批次与更新步（Epochs, Batches, and Update Steps）
+- 7.3 预测类别与 argmax（Predicted Classes and `argmax`）
+- 7.4 正确数量与准确率（Correct Predictions and Accuracy）
+- 7.5 指标累加器（Metric Accumulators）
+- 7.6 解析单轮训练函数（Understanding the Single-Epoch Training Function）
+- 7.7 整轮指标的加权统计（Weighted Metrics Across an Epoch）
+- 7.8 解析评估函数（Understanding the Evaluation Function）
+- 7.9 多轮训练与指标组合（Training Across Epochs and Combining Metrics）
+- 7.10 结果展示与检查（Displaying and Checking Results）
 
-### 第八章 设备、存取与综合阅读
+### 第八章 设备、存取与综合阅读（Devices, Saving and Loading, and a Code Walkthrough）
 
-**正文第 50 页。** 学习设备迁移和模型存取，最后通过多层感知机示例回顾从数据加载到训练的过程。
+学习设备迁移和模型存取，最后通过多层感知机示例回顾从数据加载到训练的过程。
 
-- 8.1 计算设备与设备选择（第 50 页）
-- 8.2 模型与数据的设备迁移（第 51 页）
-- 8.3 张量与容器的存取（第 51 页）
-- 8.4 模型状态字典（第 52 页）
-- 8.5 重建模型与加载状态（第 52 页）
-- 8.6 加载设备映射与一致性检查（第 53 页）
-- 8.7 训练检查点（第 54 页）
-- 8.8 D2L 辅助函数（第 55 页）
-- 8.9 综合阅读：多层感知机训练（第 56 页）
+- 8.1 计算设备与设备选择（Compute Devices and Device Selection）
+- 8.2 模型与数据的设备迁移（Moving Models and Data Between Devices）
+- 8.3 张量与容器的存取（Saving and Loading Tensors and Containers）
+- 8.4 模型状态字典（Model State Dictionaries）
+- 8.5 重建模型与加载状态（Rebuilding a Model and Loading Its State）
+- 8.6 加载设备映射与一致性检查（Device Mapping on Load and Consistency Checks）
+- 8.7 训练检查点（Training Checkpoints）
+- 8.8 D2L 辅助函数（D2L Helper Functions）
+- 8.9 综合阅读：多层感知机训练（Code Walkthrough: Training a Multilayer Perceptron）
 
 ## 问题反馈
 
