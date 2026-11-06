@@ -2,7 +2,7 @@
 
 本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和基础速成教材，帮助具备基础 Python 知识的读者尽快看懂常见代码、跟上课程。当前收录的八讲采用 **PyTorch** 版示例，可结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解阅读。
 
-[**在线阅读修订版**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89-%E4%BF%AE%E8%AE%A2%E7%89%88.pdf) · [**下载修订版 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/download/course-pdf-revised/d2l-notes-and-crash-course-revised.pdf) · [查看教材目录](#教材目录)
+[**在线阅读修订版**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89-%E4%BF%AE%E8%AE%A2%E7%89%88.pdf) · [**下载修订版 PDF**](https://github.com/Needy1100/d2l-pytorch-crash-course/releases/download/course-pdf-revised/d2l-notes-and-crash-course-revised.pdf) · [查看教材目录](#教材目录)
 
 [为什么先读速成教材](#为什么先读速成教材) · [D2L 课程介绍](#d2l-课程介绍) · [关于李沐老师](#关于李沐老师) · [课程与官方资源](#课程与官方资源)
 
@@ -189,4 +189,4 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ## 问题反馈
 
-- **问题反馈**：欢迎在 [Issues](https://github.com/Needy1100/d2l-notes-and-crash-course/issues) 提出勘误或阅读建议。附上正文页码及对应的语句或代码，便于定位。
+- **问题反馈**：欢迎在 [Issues](https://github.com/Needy1100/d2l-pytorch-crash-course/issues) 提出勘误或阅读建议。附上正文页码及对应的语句或代码，便于定位。
