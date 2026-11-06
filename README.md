@@ -12,7 +12,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 
 ## 已收录资料：D2L 基础速成八讲（PyTorch 版）
 
-[**在线阅读教材**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/d2l-notes-and-crash-course.pdf) · [查看教材目录](#教材目录)
+[**在线阅读修订版**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89-%E4%BF%AE%E8%AE%A2%E7%89%88.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/latest/download/d2l-notes-and-crash-course-revised.pdf) · [查看教材目录](#教材目录)
 
 <p align="center">
   <img src="assets/cover.png" alt="D2L 基础速成八讲 PDF 封面" width="380">
