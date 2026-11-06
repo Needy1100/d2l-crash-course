@@ -2,7 +2,9 @@
 
 本仓库用于整理李沐老师的《动手学深度学习》（D2L）课程笔记和基础速成教材，帮助具备基础 Python 知识的读者尽快看懂常见代码、跟上课程。当前收录的八讲采用 **PyTorch** 版示例，可结合 [D2L 中文教材](https://zh.d2l.ai/) 和课程讲解阅读。
 
-[为什么先读速成教材](#为什么先读速成教材) · [D2L 课程介绍](#d2l-课程介绍) · [关于李沐老师](#关于李沐老师) · [课程与官方资源](#课程与官方资源) · [教材目录](#教材目录)
+[**在线阅读修订版**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89-%E4%BF%AE%E8%AE%A2%E7%89%88.pdf) · [**下载修订版 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/download/course-pdf-revised/d2l-notes-and-crash-course-revised.pdf) · [查看教材目录](#教材目录)
+
+[为什么先读速成教材](#为什么先读速成教材) · [D2L 课程介绍](#d2l-课程介绍) · [关于李沐老师](#关于李沐老师) · [课程与官方资源](#课程与官方资源)
 
 ## 为什么先读速成教材
 
@@ -11,8 +13,6 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 这份基础速成教材把这些前置内容集中讲清楚：先认识常见写法和形状变化，再把数据加载、模型定义、损失计算和参数更新串成一条流程。带着这张流程图再学 D2L，就更容易判断一行代码在解决什么问题，把精力放到模型原理和实验结果上。
 
 ## 已收录资料：D2L 基础速成八讲（PyTorch 版）
-
-[**在线阅读修订版**](D2L%E4%BB%A3%E7%A0%81%E9%80%9F%E6%88%90%E5%85%AB%E8%AE%B2%EF%BC%88PyTorch%E7%89%88%EF%BC%89-%E4%BF%AE%E8%AE%A2%E7%89%88.pdf) · [**下载 PDF**](https://github.com/Needy1100/d2l-notes-and-crash-course/releases/download/course-pdf-revised/d2l-notes-and-crash-course-revised.pdf) · [查看教材目录](#教材目录)
 
 <p align="center">
   <img src="assets/cover.png" alt="D2L 基础速成八讲 PDF 封面" width="380">
@@ -184,7 +184,7 @@ D2L 把数学推导、模型原理和代码实现放在一起讲。对于刚接�
 - 8.5 重建模型与加载状态（Rebuilding a Model and Loading Its State）
 - 8.6 加载设备映射与一致性检查（Device Mapping on Load and Consistency Checks）
 - 8.7 训练检查点（Training Checkpoints）
-- 8.8 D2L 辅助函数（D2L Helper Functions）
+- 8.8 D2L 辅助函数与辅助类（D2L Helper Functions and Classes）
 - 8.9 综合阅读：多层感知机训练（Code Walkthrough: Training a Multilayer Perceptron）
 
 ## 问题反馈
